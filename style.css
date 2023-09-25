@@ -1,99 +1,151 @@
-body{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #061e47 ;
-  }
-  
-  .card{
-    background-color: rgb(119, 107, 96);
-    height: 70%;
-    width:30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-  
+font-family: 'Source Sans 3', sans-serif;
+background-color: #9a8c98;
+
+color: #fff;
 }
-  
-  .card:hover{
-    height: 72%;
-     width: 33%;
-     transition: ease 0.3s;
-    
-  }  
-  
-  
-  h1{
-    color: #06070d;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
-     }
-    
-  
-  p{
-    color: rgb(251, 251, 251);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont;
-    font-size: larger;
-    font-weight: 600;
-    line-height: 10px;
-    letter-spacing: 1px;
-    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
-    
- }
-  p:hover{
-    color: #5bb4eb;
-  }
-           
-    
-    
-   
 
- 
-    a{
-        color: rgb(193, 97, 206) ;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont;
-        font-size: larger;
-        font-weight: 600;
-        line-height: 10px;
-        justify-content: center;
-        align-items: center;
-        text-shadow: 0 0 0.2em rgb(13, 13, 14), 0 0 0.2em rgb(13, 11, 11) }
-       
-
-    
-    img{
-        
-        object-fit:cover;
-        border: #061e47  solid;
-        -moz-border-radius : 80px;
-        -webkit-border-radius : 100px;
-        border-radius : 75px;
-        transition: var(--main-transition );
-        margin-right:3em;
-        display: flex;
-        margin-top: 10px;
-        margin-right: 50%;
-        height: 100%;
-        position: relative;bottom: 50px;
-        position: relative;left: 80px;
-        
-        
-    }
-        
-        
-        
-        
-        
-    body{
-        background-image: url(p.png);
-        background-size: cover;
-        font-display: flex;
-
-    }
-a:hover{
-    color: rgb(217, 206, 205);
+body .page{
+margin: 20px 80px;
 }
+
+nav{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color:#564256 ;
+padding: 10px 0px;
+}
+
+nav .onglets{
+display: flex;
+flex-wrap: wrap;
+margin-top: 5px;
+
+}
+
+a{
+margin-right: 20px;
+text-decoration: none;
+color: #fff;
+}
+
+
+
+nav .buttons button{
+padding: 13px 20px;
+color: #fff;
+border: none;
+font-size: 15px;
+cursor: pointer;
+outline:none;
+}
+
+
+
+
+header{
+margin-top: 40px;
+background:url('img/logo.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1920px 1080px;
+border-radius: 190px;
+}
+
+header h1{
+text-align: center;
+font-size: 60px;
+padding: 500px;
+}
+
+footer{
+background-color: #1a1a1a;
+padding: 25px 100px;
+color: #828282;
+}
+
+footer.colonnes{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+
+.grid{
+
+margin: 80px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 350px;
+align-items: center;
+
+}
+
+p{
+
+margin: 10em;
+height: 10em;
+width: 10em;
+}
+
+.encadrer-un-contenu
+{ border: 1px solid black; padding: 5px; 
+
+margin: 120em;
+height: 50em;
+width: 20em;
+
+} 
+
+img{
+object-position: 50% 50%;
+}
+
+
+
+
+.map-responsive {
+ overflow:hidden;
+ padding-bottom:56.25%;
+ position:relative;
+ height:0;
+}
+.map-responsive iframe {
+ left:0;
+ top:0;
+ height:100%;
+ width:100%;
+ position:absolute;
+}
+
+
+.button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+
+
+
+
+}
+.table {
+  caption-side: bottom;
+}
+th, td{
+  border: 1px solid black;
+  padding: 100px;
+}
+caption{
+  background-color: #0AD;
+  font-weight: bold;
