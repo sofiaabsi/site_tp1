@@ -4,8 +4,8 @@ h1{
 }
 input{
 
-    border: solid;
-    border-radius: 20px;
+   
+
     
     
 
@@ -28,7 +28,7 @@ button:hover{
 }
 body{
 
-    background-color: pink;
+    background-color: rgb(142, 153, 173);
     
 }
 div{
